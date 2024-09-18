@@ -28,7 +28,6 @@ export default function RecordsList() {
           </Pressable>
         )}
       />
-
       <StatusBar style="auto" />
     </View>
   );

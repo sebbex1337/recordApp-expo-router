@@ -1,7 +1,7 @@
 import { Pressable, Text, TextInput, View, Image } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
-import { useNavigation, useRouter } from "expo-router";
+import { useRouter } from "expo-router";
 import { Record } from "@/types/types";
 import { addDoc, collection, Timestamp } from "firebase/firestore";
 import DateTimePicker, { DateTimePickerEvent } from "@react-native-community/datetimepicker";
