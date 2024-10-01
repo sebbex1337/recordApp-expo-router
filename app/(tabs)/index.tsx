@@ -15,7 +15,6 @@ export default function RecordsList() {
     <View>
       <Text className="text-xl text-teal-800 text-center mt-2">My LP collection</Text>
       <FlatList
-        className=""
         data={data}
         numColumns={2}
         keyExtractor={(record) => record.id}
