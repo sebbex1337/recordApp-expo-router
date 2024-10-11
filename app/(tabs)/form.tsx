@@ -1,4 +1,4 @@
-import { Pressable, Text, TextInput, View, Image } from "react-native";
+import { Pressable, Text, TextInput, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import { useRouter } from "expo-router";

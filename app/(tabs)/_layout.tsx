@@ -22,6 +22,15 @@ export default function TabsLayout() {
           tabBarIcon: ({ color, size }) => <Ionicons name="add-circle" color={color} size={size} />,
         }}
       />
+      <Tabs.Screen
+        name="map"
+        options={{
+          headerShown: true,
+          headerTitle: "Map",
+          tabBarLabel: "Map",
+          tabBarIcon: ({ color, size }) => <Ionicons name="map" color={color} size={size} />,
+        }}
+      />
     </Tabs>
   );
 }
